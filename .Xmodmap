@@ -1,4 +1,6 @@
 #Example from devmachine.
+clear control
+add control = Control_L
 keycode   8 =
 keycode   9 = Escape NoSymbol Escape
 keycode  10 = 1 exclam 1 exclam onesuperior
