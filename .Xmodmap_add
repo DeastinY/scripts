@@ -1,4 +1,5 @@
 # Get current information with xmodmap -pke > ~/.Xmodmap and add the following: Get Keycode via xev
+# If the key was used for something else before check its groups with xmodmap, then add e.g. clear control and readd the keys you still want there: add control = Control_L
 keycode 66 = Mode_switch
 keysym a = a A Left
 keysym e = e E Right
