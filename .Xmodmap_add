@@ -1,0 +1,6 @@
+# Get current information with xmodmap -pke > ~/.Xmodmap and add the following: Get Keycode via xev
+keycode 66 = Mode_switch
+keysym a = a A Left
+keysym e = e E Right
+keysym comma = comma semicolon Up
+keysym o = o O Down
